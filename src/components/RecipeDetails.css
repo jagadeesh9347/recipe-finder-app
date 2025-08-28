@@ -1,0 +1,58 @@
+.recipe-details {
+  max-width: 700px;
+  margin: 1.5rem auto 3rem;
+  padding: 0 1rem;
+  font-family: system-ui, sans-serif;
+}
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #13a58d;
+  font-weight: 600;
+}
+
+h1 {
+  color: #13a58d;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.ingredients-list {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+  margin-bottom: 1.8rem;
+}
+
+.instructions {
+  white-space: pre-line; /* respects newlines */
+  line-height: 1.5;
+  margin-bottom: 1.8rem;
+  color: #333;
+}
+
+.video-wrapper {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  border-radius: 8px;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: #f44336;
+}

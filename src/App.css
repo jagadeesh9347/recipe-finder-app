@@ -1,0 +1,30 @@
+.App {
+  font-family: system-ui, sans-serif;
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 860px;
+}
+h1 {
+  text-align: center;
+  color: #13a58d;
+  font-size: 2.2rem;
+}
+.error {
+  color: #f44336;
+  background: #ffe6e6;
+  border-radius: 5px;
+  text-align: center;
+  padding: 1rem;
+  margin: 2rem auto 1rem;
+  max-width: 400px;
+}
+footer {
+  margin: 3rem 0 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+}
+footer a {
+  color: #13a58d;
+  text-decoration: underline;
+}
