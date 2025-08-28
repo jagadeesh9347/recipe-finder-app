@@ -63,18 +63,7 @@ class App extends Component {
         {loading && <Loader />}
         {error && <div className="error">{error}</div>}
         {!loading && <RecipeList recipes={recipes} />}
-        <footer>
-          <small>
-            Powered by{" "}
-            <a
-              href="https://www.themealdb.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              TheMealDB
-            </a>
-          </small>
-        </footer>
+       
       </div>
     );
   }
